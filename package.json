@@ -1,0 +1,21 @@
+{
+  "name": "spec-lint",
+  "version": "0.1.0",
+  "bin": {
+    "spec-lint": "dist/cli/index.js"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^25.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/cli/index.ts",
+    "start": "node dist/cli/index.js"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.1"
+  }
+}
