@@ -1,3 +1,14 @@
+<p align="center">
+  <img src="./assets/logo.png" alt="Spec Lint Logo" width="200"/>
+</p>
+
+<h1 align="center">Spec Lint</h1>
+
+<p align="center">
+  A lightweight, extensible YAML & JSON specification linter.
+</p>
+
+
 # Spec-Lint
 
 Spec-Lint is a lightweight, rule-based linter for structured specification files written in JSON or YAML.
